@@ -1,0 +1,27 @@
+<web-app>
+	<servlet>
+		<servlet-name>itemControl</servlet-name>
+		<servlet-class>itemController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Cookie</servlet-name>
+		<servlet-class>itemCookie</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>cartControl</servlet-name>
+		<servlet-class>cartController</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemControl</servlet-name>
+		<url-pattern>/item</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Cookie</servlet-name>
+		<url-pattern>/cookie</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>cartControl</servlet-name>
+		<url-pattern>/cart</url-pattern>
+	</servlet-mapping>
+</web-app>
